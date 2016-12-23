@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#root{
+    width: 600px;
+    height: 600px;
+    background-color:grey;
+    margin: 0 auto;
+    position: relative;
+    .allselect{
+        width: 600px;
+        height: 100px;
+        .selects{
+            width: 80px;
+            height: 30px;
+            position: relative;
+            background-color: white;
+            top:20px;
+            text-align: center;
+            display: inline-block;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+    }
+    .allpicbox{
+        width: 600px;
+        height: 900px;
+        img{
+            width: 33.33%;
+        }
+    }
+}
